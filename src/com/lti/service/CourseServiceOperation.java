@@ -8,11 +8,12 @@ import com.lti.dao.CourseDao;
 import com.lti.dao.CourseDaoImpl;
 import com.lti.exception.CourseNotFoundException;
 
-
+/** 
+ * @desc this class will hold functions for Course service operation
+ * examples include displayCourses(Student student),insertCourse(Course course)
+ * @author Manikandan 
+ */
 public class CourseServiceOperation implements CourseServiceInterface{
-
-	//initializing logger
-
 
 	CourseDao courseDao= new CourseDaoImpl();
 

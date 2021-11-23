@@ -7,9 +7,13 @@ import com.lti.dao.RegistrationDao;
 import com.lti.dao.RegistrationDaoImpl;
 
 
+/** 
+ * @desc this class will hold functions for Registration service operation
+ * examples include submitRegistration (Student student),displayRegisteredStudentsInCourse(int courseId)
+ * @author Manikandan 
+ */
 public class RegistrationServiceOperation implements RegistrationServiceInterface{
 
-	//initializing logger
 
 
 		RegistrationDao registrationDao= new RegistrationDaoImpl();

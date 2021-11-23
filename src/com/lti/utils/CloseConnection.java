@@ -6,9 +6,6 @@ import java.sql.SQLException;
 
 public interface CloseConnection {
 
-	//initializing logger
-
-
 	//default function to close connections
 	default public void closeConnection( Connection conn,PreparedStatement stmt){
 

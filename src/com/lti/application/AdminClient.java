@@ -12,7 +12,11 @@ import com.lti.service.CourseServiceInterface;
 import com.lti.service.CourseServiceOperation;
 import com.lti.service.UserServiceInterface;
 import com.lti.service.UserServiceOperation;
-
+/** 
+ * @desc this class will hold functions for admin interaction
+ * includes adminClient landing page
+ * @author Manikandan 
+ */
 public class AdminClient {
 
 	// initializing the scanner

@@ -7,10 +7,12 @@ import com.lti.bean.Student;
 import com.lti.dao.StudentDao;
 import com.lti.dao.StudentDaoImpl;
 
-
+/** 
+ * @desc this class will hold functions for Student service operation
+ * examples include addCourse(int courseId, Student student),dropCourse(int courseId,Student student)
+ * @author Manikandan 
+ */
 public class StudentServiceOperation implements StudentServiceInterface{
-
-	//initializing logger
 
 
 	StudentDao studentDao= new StudentDaoImpl();

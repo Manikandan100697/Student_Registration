@@ -13,11 +13,14 @@ import com.lti.constant.SQLConstantQueries;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
 
-
+/** 
+ * @desc this class will hold functions for Student Dao Implentation
+ * examples include 
+ * @author Manikandan 
+ */
 
 public class StudentDaoImpl implements StudentDao,CloseConnection{
 
-	//Initializing the logger
 
 	// add a course by student
 	public void addCourse(int courseId ,Student student)  {

@@ -6,7 +6,11 @@ import com.lti.exception.InputMismatchException;
 import com.lti.exception.InvalidLoginException;
 import com.lti.service.UserServiceInterface;
 import com.lti.service.UserServiceOperation;
-
+/** 
+ * @desc this class facilitates user interaction 
+ * and Menu popup so that user can login and modifity the data accoridingly
+ * @author Manikandan 
+*/
 public class CRSMenu {
 
 	public static void main(String[] args) {

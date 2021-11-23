@@ -12,11 +12,12 @@ import com.lti.bean.Professor;
 import com.lti.constant.SQLConstantQueries;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
-
+/** 
+ * @desc this class will hold functions for Professor Dao implementation
+ * examples include selectCourse(int courseId ,Professor professor), deselectCourse(int courseId, Professor professor)
+ * @author Manikandan 
+ */
 public class ProfessorDaoImpl implements ProfessorDao, CloseConnection{
-
-
-	//Initializing the logger
 
 	// select a course by professor to teach
 	public void selectCourse(int courseId ,Professor professor)  {

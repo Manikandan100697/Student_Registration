@@ -10,10 +10,14 @@ import com.lti.dao.UserDao;
 import com.lti.dao.UserDaoImpl;
 import com.lti.exception.InvalidLoginException;
 import com.lti.exception.UserNotFoundException;
-
+/** 
+ * @desc this class will hold functions for user service operation like create, update, delete and display users
+ * examples include validateUser(String username, String password),fetchStudent(int studentId)
+ * @author Manikandan 
+ */
 public class UserServiceOperation implements UserServiceInterface {
 
-	// initializing logger
+
 
 	UserDao userDao = new UserDaoImpl();
 

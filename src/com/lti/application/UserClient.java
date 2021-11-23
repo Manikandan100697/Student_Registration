@@ -10,10 +10,11 @@ import com.lti.exception.InvalidLoginException;
 import com.lti.service.UserServiceInterface;
 import com.lti.service.UserServiceOperation;
 
-/**
- * @desc this class facilitates user interaction and user credential check
- * @author Anushka
- */
+/** 
+ * @desc this class facilitates user interaction 
+ * and user credential check
+
+*/
 public class UserClient {
 
 

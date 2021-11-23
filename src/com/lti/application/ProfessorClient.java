@@ -13,7 +13,11 @@ import com.lti.service.ProfessorServiceOperation;
 import com.lti.service.RegistrationServiceInterface;
 import com.lti.service.RegistrationServiceOperation;
 
-
+/** 
+ * @desc this class will hold functions for professor interaction
+ * includes Professor Client landing page
+ * @author Manikandan
+*/
 public class ProfessorClient {
 	// initializing the logger
 	

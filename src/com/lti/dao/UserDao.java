@@ -12,6 +12,10 @@ import com.lti.bean.User;
 import com.lti.exception.UserNotFoundException;
 import com.lti.utils.DBUtil;
 
+/** 
+ * @desc this interface is implemented by UserDaoImplementation class
+ * @author Manikandan 
+ */
 public interface UserDao {
 
 

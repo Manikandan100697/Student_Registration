@@ -4,10 +4,12 @@ import com.lti.bean.Notification;
 import com.lti.bean.Student;
 import com.lti.dao.RegistrationDao;
 import com.lti.dao.RegistrationDaoImpl;
-
+/** 
+ * @desc this class will hold functions for Notification service operation
+ * examples include showRegistrationReciept(Student student)
+ * @author Manikandan 
+ */
 public class NotificationServiceOperation implements NotificationServiceInterface{
-
-	//initializing logger
 
 	RegistrationDao registrationDao= new RegistrationDaoImpl();
 

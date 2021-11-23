@@ -13,10 +13,12 @@ import com.lti.constant.SQLConstantQueries;
 import com.lti.exception.CourseNotFoundException;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
-
+/** 
+ * @desc this class will hold functions for course Dao Implementation
+ * examples include displayCourses(Student student), insertCourse(Course course),displayCoursesProfessor(Student student)
+  * @author Manikandan 
+ */
 public class CourseDaoImpl implements CourseDao, CloseConnection {
-
-	// Initializing the logger
 
 	// provide list of courses available for a student to select
 	// mapped with student's with branch and semester

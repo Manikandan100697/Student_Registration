@@ -8,9 +8,12 @@ import com.lti.dao.GradeDao;
 import com.lti.dao.GradeDaoImpl;
 
 
+/** 
+ * @desc this class will hold functions for Grade service operation
+ * examples include displayGrades(Student student ),uploadGrades(int studentId, int courseId, String grade)
+ * @author Manikandan 
+ */
 public class GradeServiceOperation implements GradeServiceInterface {
-	//initializing logger
-	
 
 		GradeDao gradeDao= new GradeDaoImpl();
 

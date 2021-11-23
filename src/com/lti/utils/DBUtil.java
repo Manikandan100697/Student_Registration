@@ -8,7 +8,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-
+/** 
+ * @desc this class will hold functions for establishing connection with database
+ * examples include 
+ * @author Manikandan 
+ */
 public class DBUtil {
 private static Connection connection = null;
 	

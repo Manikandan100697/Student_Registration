@@ -1,5 +1,10 @@
 package com.lti.constant;
 
+/** 
+ * @desc this class will hold all the SQL Queries used in project
+ * examples include VALIDATE_USER, DISPLAY_COURSES, ADD_COURSE, DROP_COURSE, INSERT_USER
+ * @author Manikandan
+*/
 public class SQLConstantQueries {
 	
 	public static final String VALIDATE_USER="SELECT UserID, RoleID FROM user WHERE Username=? AND Password=?";

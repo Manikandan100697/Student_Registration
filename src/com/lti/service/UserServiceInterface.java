@@ -6,7 +6,11 @@ import com.lti.bean.Student;
 import com.lti.bean.User;
 import com.lti.exception.InvalidLoginException;
 import com.lti.exception.UserNotFoundException;
-
+/** 
+ * @desc this interface is implemented by UserServiceOperation class
+ * @author Manikandan 
+ * 
+ */
 public interface UserServiceInterface {
 
 	public User validateUser(String username, String password) throws InvalidLoginException;

@@ -13,12 +13,13 @@ import com.lti.constant.SQLConstantQueries;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
 
-
+/** 
+ * @desc this class will hold functions for Grade Dao implementation
+ * examples include displayGrades(Student student), uploadGrades(int studentId, int courseId, String grade)
+ * @author Manikandan 
+ */
 
 public class GradeDaoImpl implements GradeDao, CloseConnection{
-	//Initializing the logger
-
-
 
 	// fetch grades of students against courseId and studentId
 	public List<Course> displayGrades(Student student) {

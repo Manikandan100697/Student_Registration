@@ -7,12 +7,13 @@ import com.lti.bean.Professor;
 import com.lti.dao.ProfessorDao;
 import com.lti.dao.ProfessorDaoImpl;
 
-
+/** 
+ * @desc this class will hold functions for Professor service operation
+ * examples include selectCourse(int courseId ,Professor professor),deselectCourse(int courseId, Professor professor)
+ * @author Manikandan 
+ */
 
 public class ProfessorServiceOperation implements ProfessorServiceInterface{
-
-	//initializing logger
-
 
 	ProfessorDao professorDao= new ProfessorDaoImpl();
 

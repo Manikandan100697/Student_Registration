@@ -5,7 +5,11 @@ import java.util.List;
 import com.lti.bean.Notification;
 import com.lti.bean.Student;
 
+/** 
+ * @desc this interface is implemented by RegistrationDaoImplementaion class
+ * @author Manikandan 
 
+ */
 public interface RegistrationDao {
 	public boolean numberOfCoursesSelected (Student student);
 	public void submitRegistration (Student student);

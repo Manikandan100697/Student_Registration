@@ -13,11 +13,12 @@ import com.lti.constant.SQLConstantQueries;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
 
-;
-
+/** 
+ * @desc this class will hold functions for Registration Dao implementation
+ * examples include numberOfCoursesSelected (Student student),submitRegistration (Student student)
+ * @author Manikandan
+ */
 public class RegistrationDaoImpl implements RegistrationDao,CloseConnection{
-	//Initializing the logger
-	
 
 	// gives the count of courses selected by student
 	public boolean numberOfCoursesSelected (Student student) {

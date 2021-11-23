@@ -14,9 +14,12 @@ import com.lti.bean.User;
 import com.lti.constant.SQLConstantQueries;
 import com.lti.utils.CloseConnection;
 import com.lti.utils.DBUtil;
-
+/** 
+ * @desc this class will hold functions for User Dao Implementation
+ * examples include 
+ * @author Manikandan 
+ */
 public class UserDaoImpl implements UserDao, CloseConnection {
-	// Initializing the logger
 
 	// validates the user by checking its credentials
 	public User validateUser(String username, String pass) {

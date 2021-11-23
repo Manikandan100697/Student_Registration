@@ -18,7 +18,11 @@ import com.lti.service.RegistrationServiceInterface;
 import com.lti.service.RegistrationServiceOperation;
 import com.lti.service.StudentServiceInterface;
 import com.lti.service.StudentServiceOperation;
-
+/** 
+ * @desc this class will hold functions for student interaction
+ * includes Student Client landing page
+ * @author Manikandan
+ */
 public class StudentClient {
 
 	Student student = new Student();
